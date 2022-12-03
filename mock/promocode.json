@@ -1,0 +1,26 @@
+[
+    {
+        "_id": "67promocodef6fgeed471198",
+        "name": "SKIDKA",
+        "total": 300,
+        "discont": 10
+    },
+    {
+        "_id": "67promocodef6fgeed471200",
+        "name": "HALYAVA",
+        "total": 500,
+        "discont": 30
+    },
+    {
+        "_id": "67promocodef6fgeed471202",
+        "name": "DECYATKA",
+        "total": 800,
+        "discont": 80
+    },
+    {
+        "_id": "67promocodef6fgeed471204",
+        "name": "PYATNAJKA",
+        "total": 1000,
+        "discont": 150
+    }
+]

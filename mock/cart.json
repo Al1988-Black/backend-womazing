@@ -1,0 +1,26 @@
+[
+    {
+        "_id": "49cart7f6fgeed471925",
+        "userId": "67user3eeb7f6fgeed471815",
+        "product_id": "58producteb7f6fgeed471815",
+        "sizes": "30size3eeb7f6fgeed471818",
+        "colors": "77coloreeb7f6fgeed471104",
+        "quantity": 2
+    },
+    {
+        "_id": "49cart7f6fgeed471999",
+        "userId": "67user3eeb7f6fgeed471815",
+        "product_id": "58producteb7f6fgeed471816",
+        "sizes": "30size3eeb7f6fgeed471824",
+        "colors": "77coloreeb7f6fgeed471198",
+        "quantity": 3
+    },
+    {
+        "_id": "49cart7f6fgeed472096",
+        "userId": "67user3eeb7f6fgeed471815",
+        "product_id": "58producteb7f6fgeed471817",
+        "sizes": "30size3eeb7f6fgeed471820",
+        "colors": "77coloreeb7f6fgeed471198",
+        "quantity": 1
+    }
+]
