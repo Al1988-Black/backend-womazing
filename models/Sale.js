@@ -7,6 +7,11 @@ const schema = new Schema(
             ref: "Product",
             required: true,
         },
+        orderId: {
+            type: Schema.Types.ObjectId,
+            ref: "Order",
+            required: true,
+        },
         size: { type: Schema.Types.ObjectId, ref: "Size", required: true },
         color: { type: Schema.Types.ObjectId, ref: "Color", required: true },
         qauntity: { type: Number, required: true },
@@ -17,4 +22,4 @@ const schema = new Schema(
     }
 );
 
-module.exports = model("Cart", schema);
+module.exports = model("Sale", schema);

@@ -9,6 +9,7 @@ router.use("/color", require("./color.routes"));
 router.use("/product", require("./product.routes"));
 router.use("/promocode", require("./promocode.routes"));
 router.use("/sale", require("./sale.routes"));
+router.use("/order", require("./order.routes"));
 router.use("/user", require("./user.routes"));
 
 module.exports = router;

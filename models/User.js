@@ -4,9 +4,10 @@ const schema = new Schema(
     {
         name: { type: String },
         email: { type: String, required: true, unique: true }, // unique: true-уникальный
-        password: { type: String },
-        phone: Number, // {type:Number} можно записать просто Number
+        password: { type: String, required: true },
+        phone: { type: String },
         city: { type: Schema.Types.ObjectId, ref: "City" }, // делаем связь с моделью City
+        isAdmin: { type: Boolean, required: true },
     },
     {
         timestamps: true, // поле иформаци когда была создана модель и когда модель была обновлена
